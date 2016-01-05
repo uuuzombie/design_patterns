@@ -5,7 +5,7 @@ import com.google.common.base.Objects;
 /**
  * Created by rg on 2014/5/8.
  */
-//Telescoping constructor pattern重叠构造器模式
+//Telescoping constructor pattern 重叠构造器模式
 public class NutritionFacts {
 
     private final int servingSize;

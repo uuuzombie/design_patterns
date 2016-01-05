@@ -11,10 +11,11 @@ public class NutritionFactsTest {
 
     @Test
     public void test_constructor(){
-        NutritionFacts cocaCola = new NutritionFacts.Builder(240,40).calories(100).fat(200).sodium(30).carbohydrate(100).build();
+        NutritionFacts cocaCola = new NutritionFacts.Builder(240, 40).calories(100).fat(200).sodium(30)
+                .carbohydrate(100).build();
         System.out.println(cocaCola);
 
-        NutritionFacts pepsi = new NutritionFacts.Builder(200,100).build();
+        NutritionFacts pepsi = new NutritionFacts.Builder(200, 100).build();
         System.out.println(pepsi);
     }
 

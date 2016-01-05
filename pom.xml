@@ -10,6 +10,15 @@
         <module>singleton_pattern</module>
         <module>strategy_pattern</module>
         <module>template_pattern</module>
+        <module>simple_factory_pattern</module>
+        <module>factory_method_pattern</module>
+        <module>prototype_pattern</module>
+        <module>adapter_pattern</module>
+        <module>iterator_pattern</module>
+        <module>proxy_pattern</module>
+        <module>observer_pattern</module>
+        <module>facade_pattern</module>
+        <module>decorator_pattern</module>
     </modules>
     <packaging>pom</packaging>
 

@@ -5,7 +5,7 @@ import com.google.common.base.Objects;
 /**
  * Created by rg on 2014/5/8.
  */
-//JavaBeans Pattern JavaBean模式
+//JavaBeans pattern JavaBean模式
 public class NutritionFacts {
 
     private int servingSize = -1;

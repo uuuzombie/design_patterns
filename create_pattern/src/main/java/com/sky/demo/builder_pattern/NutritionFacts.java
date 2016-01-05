@@ -5,7 +5,7 @@ import com.google.common.base.Objects;
 /**
  * Created by rg on 2014/5/8.
  */
-//Builder Pattern Builder 模式
+//Builder pattern Builder 模式
 public class NutritionFacts {
 
     private final int servingSize;

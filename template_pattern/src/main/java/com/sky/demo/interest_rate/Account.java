@@ -16,7 +16,6 @@ public abstract class Account {
 
     //基本方法留给子类实现
     protected abstract String doCalculateAccountType();
-    //基本方法留给子类实现
     protected abstract double doCalculateInterestRate();
 
 
@@ -25,7 +24,6 @@ public abstract class Account {
         //retrieve amount from database...here is only a mock-up
         return 1000.00D;
     }
-
 
     public final double calculateInterest(){
         double interestRate = doCalculateInterestRate();
