@@ -13,7 +13,8 @@ public class WatcherTest {
 
         Watched watched = new Watched();
 
-        Watcher watcher = new Watcher(watched);  //添加到观察者上
+        Watcher watcher1 = new Watcher(watched);  //注册到观察者上
+        Watcher watcher2 = new Watcher(watched);  //注册到观察者上
 
         watched.setData("start");
         Thread.sleep(2000);
