@@ -15,11 +15,11 @@ public class Watched extends Observable {
     }
 
     public void setData(String data) {
-        if (this.data != data) {
+        if (!this.data.equals(data)) {
             this.data = data;
-            setChanged();
+            setChanged();       //更改状态
         }
 
-        notifyObservers(); //通知观察者
+        notifyObservers();      //通知观察者，depends on changed
     }
 }
