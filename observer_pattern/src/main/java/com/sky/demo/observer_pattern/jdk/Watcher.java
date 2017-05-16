@@ -11,6 +11,10 @@ public class Watcher implements Observer {
 
     String data;
 
+    public Watcher() {
+
+    }
+
     public Watcher(Observable observable) {
         observable.addObserver(this);   //将主题注册到观察者
     }
