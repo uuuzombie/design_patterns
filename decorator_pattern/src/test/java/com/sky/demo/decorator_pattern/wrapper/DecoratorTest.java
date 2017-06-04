@@ -11,7 +11,7 @@ public class DecoratorTest {
     @Test
     public void test_wrapper() {
 
-        Sage monkey = new Mokey();
+        Sage monkey = new Monkey();
 
         //第一种写法
         Sage bird = new Bird(monkey);

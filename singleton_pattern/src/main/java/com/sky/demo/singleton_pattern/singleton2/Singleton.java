@@ -15,8 +15,8 @@ public class Singleton {
     }
 
 
+    //内部类
     private static class SingletonHolder {
-
         private static Singleton INSTANCE = new Singleton();
 
     }
