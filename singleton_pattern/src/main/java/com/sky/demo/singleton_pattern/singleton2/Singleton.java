@@ -1,24 +1,23 @@
 package com.sky.demo.singleton_pattern.singleton2;
 
 /**
- * Created by rg on 2014/5/9.
- * 饿汉式单例
+ * Created by rg on 04/06/2017.
+ * 懒汉式单例，使用内部类实现延迟加载 thread-safe
  */
 public class Singleton {
 
-    private static final Singleton INSTANCE = new Singleton();
 
-    //私有的构造方法
-    private Singleton(){
-    }
+    private Singleton() {}
 
-    //公有静态工厂方法
-    public static Singleton getInstance(){
-        return INSTANCE;
+
+    public static Singleton getInstance() {
+        return SingletonHolder.INSTANCE;
     }
 
 
-    public void levelTheBuilding(){
+    private static class SingletonHolder {
+
+        private static Singleton INSTANCE = new Singleton();
 
     }
 
